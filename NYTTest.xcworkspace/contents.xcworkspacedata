@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NYTTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ArticleData+CoreDataClass.swift">
    </FileRef>
    <FileRef
       location = "group:ArticleData+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
-      location = "group:NYTTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

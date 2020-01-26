@@ -110,6 +110,7 @@
 		6291D4F923DD84F2006254A6 /* ArticleRequestMostEmailedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostEmailedTests.swift; sourceTree = "<group>"; };
 		6291D4FA23DD84F2006254A6 /* ArticleRequestMostViewedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostViewedTests.swift; sourceTree = "<group>"; };
 		6291D4FB23DD84F2006254A6 /* ArticleRequestMostSharedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRequestMostSharedTests.swift; sourceTree = "<group>"; };
+		6291D4FF23DD8774006254A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		62FB3EEC2A7B25CCEC1806EA /* Pods-NYTTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTest.debug.xcconfig"; path = "Target Support Files/Pods-NYTTest/Pods-NYTTest.debug.xcconfig"; sourceTree = "<group>"; };
 		88A3940383B1E608091C176A /* Pods_NYTTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB2210EFC690F0E54CA6496 /* Pods-NYTTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTest.release.xcconfig"; path = "Target Support Files/Pods-NYTTest/Pods-NYTTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,8 +159,9 @@
 		6291D45923DD6BAB006254A6 = {
 			isa = PBXGroup;
 			children = (
+				6291D4FF23DD8774006254A6 /* README.md */,
 				6291D46423DD6BAB006254A6 /* NYTTest */,
-				6291D47B23DD6BAF006254A6 /* NYTTestTests */,
+				6291D47B23DD6BAF006254A6 /* NYTTests */,
 				6291D48623DD6BB0006254A6 /* NYTTestUITests */,
 				6291D46323DD6BAB006254A6 /* Products */,
 				A8D093179CF89E092E0B56ED /* Pods */,
@@ -196,7 +198,7 @@
 			path = NYTTest;
 			sourceTree = "<group>";
 		};
-		6291D47B23DD6BAF006254A6 /* NYTTestTests */ = {
+		6291D47B23DD6BAF006254A6 /* NYTTests */ = {
 			isa = PBXGroup;
 			children = (
 				6291D4F923DD84F2006254A6 /* ArticleRequestMostEmailedTests.swift */,
@@ -204,7 +206,7 @@
 				6291D4FA23DD84F2006254A6 /* ArticleRequestMostViewedTests.swift */,
 				6291D47E23DD6BAF006254A6 /* Info.plist */,
 			);
-			path = NYTTestTests;
+			path = NYTTests;
 			sourceTree = "<group>";
 		};
 		6291D48623DD6BB0006254A6 /* NYTTestUITests */ = {
