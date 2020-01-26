@@ -6,6 +6,8 @@ target 'NYTTest' do
   use_frameworks!
 
   # Pods for NYTTest
+    pod 'Alamofire', '~> 4.0'
+
 
   target 'NYTTestTests' do
     inherit! :search_paths
