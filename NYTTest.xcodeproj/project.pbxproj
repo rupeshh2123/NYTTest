@@ -15,6 +15,8 @@
 		6291D47223DD6BAF006254A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291D47023DD6BAF006254A6 /* LaunchScreen.storyboard */; };
 		6291D47D23DD6BAF006254A6 /* NYTTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291D47C23DD6BAF006254A6 /* NYTTestTests.swift */; };
 		6291D48823DD6BB0006254A6 /* NYTTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291D48723DD6BB0006254A6 /* NYTTestUITests.swift */; };
+		6291D49C23DD7597006254A6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291D49A23DD7597006254A6 /* DashboardViewController.swift */; };
+		6291D49D23DD7597006254A6 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6291D49B23DD7597006254A6 /* DashboardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6291D48323DD6BB0006254A6 /* NYTTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6291D48723DD6BB0006254A6 /* NYTTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTTestUITests.swift; sourceTree = "<group>"; };
 		6291D48923DD6BB0006254A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291D49A23DD7597006254A6 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6291D49B23DD7597006254A6 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6291D46E23DD6BAF006254A6 /* Assets.xcassets */,
 				6291D47023DD6BAF006254A6 /* LaunchScreen.storyboard */,
 				6291D47323DD6BAF006254A6 /* Info.plist */,
+				6291D49A23DD7597006254A6 /* DashboardViewController.swift */,
+				6291D49B23DD7597006254A6 /* DashboardViewController.xib */,
 			);
 			path = NYTTest;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				6291D47223DD6BAF006254A6 /* LaunchScreen.storyboard in Resources */,
 				6291D46F23DD6BAF006254A6 /* Assets.xcassets in Resources */,
 				6291D46D23DD6BAB006254A6 /* Main.storyboard in Resources */,
+				6291D49D23DD7597006254A6 /* DashboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 				6291D46A23DD6BAB006254A6 /* ViewController.swift in Sources */,
 				6291D46623DD6BAB006254A6 /* AppDelegate.swift in Sources */,
 				6291D46823DD6BAB006254A6 /* SceneDelegate.swift in Sources */,
+				6291D49C23DD7597006254A6 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
